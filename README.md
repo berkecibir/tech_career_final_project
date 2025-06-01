@@ -1,6 +1,6 @@
 # tc_bootcamp_final
 
-Bu proje, [Techcareer.net] tarafından düzenlenen [Techcareer/Flutter App Development Bootcamp] kapsamında geliştirilmiş bir [Flutter E-Ticaret Mobil Uygulaması] bitirme projesidir.
+Bu proje, Techcareer.net tarafından düzenlenen Techcareer/Flutter App Development Bootcamp kapsamında geliştirilmiş bir Flutter E-Ticaret Mobil Uygulaması bitirme projesidir.
 
 ## 🚀 Proje Hakkında
 
