@@ -20,6 +20,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with HomeMixin {
+  final String productImage = 'http://kasimadalan.pe.hu/urunler/resimler/';
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -36,6 +38,7 @@ class _HomePageState extends State<HomePage> with HomeMixin {
               padding: DevicePadding.medium.all,
               child: SearhField(searchController: searchController),
             ),
+
             Expanded(
               child: BlocBuilder<HomeCubit, HomeState>(
                 builder: (context, state) {

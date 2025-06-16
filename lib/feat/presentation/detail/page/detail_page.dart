@@ -7,6 +7,7 @@ import 'package:tc_bootcamp_final/feat/core/widgets/device_size/device_size.dart
 import 'package:tc_bootcamp_final/feat/core/widgets/device_spacing/device_spacing.dart';
 import 'package:tc_bootcamp_final/feat/data/model/product/product_model.dart';
 import 'package:tc_bootcamp_final/feat/presentation/detail/widgets/add_to_cart_button.dart';
+import 'package:tc_bootcamp_final/feat/presentation/product/widgets/custom_app_bar.dart';
 
 class DetailPage extends StatelessWidget {
   static const String id = AppTexts.detailPageId;
@@ -22,7 +23,7 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(product.name)),
+      appBar: CustomAppBar.detailAppBar(productName: product.name),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
 
