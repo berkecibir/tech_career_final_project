@@ -28,7 +28,6 @@ class _HomePageState extends State<HomePage> with HomeMixin {
       },
       child: Scaffold(
         resizeToAvoidBottomInset: false,
-
         appBar: CustomAppBar.home(),
         body: Column(
           children: [

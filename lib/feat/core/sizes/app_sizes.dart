@@ -14,4 +14,5 @@ class AppSizes {
   static const double base = 18;
   static const double semiLarge = 22;
   static const double extraLarge = 24;
+  static const double huge = 40;
 }

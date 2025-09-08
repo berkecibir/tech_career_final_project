@@ -26,7 +26,7 @@ class AppTexts {
       "Kullanıcı bulunamadı veya şifre yanlış";
   static const String wrongPassword = "Hatalı şifre";
   static const String emailPattern = r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$';
-  static const String loginPageGreet = "Hoş Geldiniz!";
+  static const String loginPageGreet = "Hoş Geldiniz";
 
   // auth cubit strings here
   static const String loginFailed =

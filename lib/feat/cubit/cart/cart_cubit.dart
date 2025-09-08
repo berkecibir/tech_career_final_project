@@ -19,12 +19,31 @@ class CartCubit extends Cubit<CartState> {
   }) async {
     emit(CartActionLoading());
     try {
-      await repository.addProductToCart(
-        product: product,
-        quantity: quantity,
+      final currentCartProducts = await repository.getCartProducts(
         userName: userName,
       );
-      emit(CartActionSuccess());
+      CartProductModel? existingCartItem;
+      for (var item in currentCartProducts) {
+        if (item.name == product.name && item.brand == product.brand) {
+          existingCartItem = item;
+          break;
+        }
+      }
+
+      if (existingCartItem != null) {
+        await updateCartItemQuantity(
+          cartProduct: existingCartItem,
+          newQuantity: existingCartItem.quantity + quantity,
+          userName: userName,
+        );
+      } else {
+        await repository.addProductToCart(
+          product: product,
+          quantity: quantity,
+          userName: userName,
+        );
+        emit(CartActionSuccess());
+      }
 
       await getCartProducts(userName: userName);
     } catch (e) {
