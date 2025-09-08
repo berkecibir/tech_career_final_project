@@ -3,9 +3,9 @@
 Bu proje, Techcareer.net tarafından düzenlenen Techcareer/Flutter App Development Bootcamp kapsamında geliştirilmiş bir Flutter E-Ticaret Mobil Uygulaması bitirme projesidir.
 
 ## 🚀 Proje Hakkında
-<img width="1080" height="2400" alt="Screenshot_1757335277" src="https://github.com/user-attachments/assets/0bdb689e-0fa3-465c-a6cf-aa3597a47cfa" />
-<img width="1080" height="2400" alt="Screenshot_1757335280" src="https://github.com/user-attachments/assets/4ba95fb5-bd2f-4e92-ab8a-e40525da95d3" />
-<img width="1080" height="2400" alt="Screenshot_1757335290" src="https://github.com/user-attachments/assets/a25884dc-10a4-4238-8e5b-52741dc8daec" />
+<img width="300" height="2400" alt="Screenshot_1757335277" src="https://github.com/user-attachments/assets/0bdb689e-0fa3-465c-a6cf-aa3597a47cfa" />
+<img width="300" height="2400" alt="Screenshot_1757335280" src="https://github.com/user-attachments/assets/4ba95fb5-bd2f-4e92-ab8a-e40525da95d3" />
+<img width="300" height="2400" alt="Screenshot_1757335290" src="https://github.com/user-attachments/assets/a25884dc-10a4-4238-8e5b-52741dc8daec" />
 
 
 Bu uygulama, kullanıcıların ürünleri keşfetmesini, sepetine eklemesini ve sipariş vermesini sağlayan temel bir mobil e-ticaret deneyimi sunar.
