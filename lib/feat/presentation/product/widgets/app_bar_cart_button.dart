@@ -37,8 +37,7 @@ class AppBarCartButton extends StatelessWidget {
               ),
               constraints: const BoxConstraints(minWidth: 16, minHeight: 16),
               child: const Text(
-                // Use itemCount.toString() here if you made it a parameter
-                '2', // Static value for now, consider making this dynamic
+                '2',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 10,

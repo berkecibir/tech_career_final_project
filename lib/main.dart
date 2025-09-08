@@ -5,7 +5,6 @@ import 'package:tc_bootcamp_final/feat/core/init/app_init.dart';
 import 'package:tc_bootcamp_final/feat/core/routes/app_routes.dart';
 import 'package:tc_bootcamp_final/feat/core/widgets/navigation/navigation_helper.dart';
 import 'package:tc_bootcamp_final/feat/presentation/auth/page/auth_page.dart';
-import 'package:tc_bootcamp_final/feat/presentation/main/main_page.dart';
 import 'package:tc_bootcamp_final/feat/providers/bloc_provider_set_up.dart';
 
 void main() {
@@ -25,7 +24,7 @@ class MainApp extends StatelessWidget {
       providers: BlocProvidersSetUp.providers,
       child: MaterialApp(
         theme: AppTheme.appTheme,
-        initialRoute: MainPage.id,
+        initialRoute: AuthPage.id,
         routes: AppRoutes.routes,
         debugShowCheckedModeBanner: false,
         navigatorKey: Navigation.navigationKey,

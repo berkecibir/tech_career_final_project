@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tc_bootcamp_final/feat/core/configs/theme/app_colors.dart';
+import 'package:tc_bootcamp_final/feat/core/sizes/app_sizes.dart';
 
 class NotificationButton extends StatelessWidget {
   const NotificationButton({super.key});
@@ -10,8 +12,8 @@ class NotificationButton extends StatelessWidget {
       child: Stack(
         children: [
           Container(
-            width: 40,
-            height: 40,
+            width: AppSizes.huge,
+            height: AppSizes.huge,
             decoration: BoxDecoration(
               color: const Color.fromRGBO(255, 255, 255, 0.15),
               borderRadius: BorderRadius.circular(12),
@@ -23,7 +25,7 @@ class NotificationButton extends StatelessWidget {
             child: const Icon(
               Icons.notifications_none_rounded,
               color: Colors.white,
-              size: 20,
+              size: AppSizes.large,
             ),
           ),
           Positioned(
@@ -33,7 +35,7 @@ class NotificationButton extends StatelessWidget {
               width: 8,
               height: 8,
               decoration: const BoxDecoration(
-                color: Color(0xFFEF4444),
+                color: AppColors.red,
                 shape: BoxShape.circle,
               ),
             ),
